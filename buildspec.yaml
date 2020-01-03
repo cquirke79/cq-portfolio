@@ -1,0 +1,13 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      - echo nothing to do yet
+artifacts:
+  files:
+    - index.html
+    - favicon.ico
+    - azure-70-535-architecting-solutions-caa915d7-edde-41a4-8e44-4b5007092e40.pdf
+    - styles/main.css
+    - images/*
