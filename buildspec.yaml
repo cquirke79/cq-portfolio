@@ -6,7 +6,8 @@ phases:
       nodejs: 8
   build:
     commands:
-      - echo nothing to do yet
+      - npm install
+      - npm run webpack
 artifacts:
   files:
     - index.html
@@ -14,3 +15,4 @@ artifacts:
     - azure-70-535-architecting-solutions-caa915d7-edde-41a4-8e44-4b5007092e40.pdf
     - styles/main.css
     - images/*
+    - dist/bundle.js
