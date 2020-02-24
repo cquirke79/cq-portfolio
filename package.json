@@ -1,0 +1,33 @@
+{
+  "name": "cq-portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "webpack-watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cquirke79/cq-portfolio.git"
+  },
+  "author": "Chris Quirke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cquirke79/cq-portfolio/issues"
+  },
+  "homepage": "https://github.com/cquirke79/cq-portfolio#readme",
+  "dependencies": {
+    "local-web-server": "^4.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
+  }
+}
